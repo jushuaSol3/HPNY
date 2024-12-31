@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia;
+}
+.container{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+}
+.container-group{
+  display: block;
+  border: 1px solid black;
+  padding: 10%;
+  margin: 10%;
+  margin-top: 50%;
+  background: #86c3d6;
+  border-radius: 2rem ;
+  position: relative;
+  justify-content: flex-start;
+}
+#cls-btn{
+  padding: 5%;
+  position: absolute;
+  justify-content: flex-start;
+  top: 5%;
+  left: 20px;
+  border: none;
+  border-radius: 100px;
+  font-weight: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+#cls-btn:active{
+  background-color: rgba(23, 50, 4, 0.23);
+}
+p{
+  display: flexbox;
+  justify-content: center;
+  padding: 5%;
+  font-size: 30px;
+  padding-top: 10%;
+}
